@@ -1,0 +1,72 @@
+.cardbox.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100% / 3);
+    padding: 15px 10px;
+    .card-img{
+        position: relative;
+        z-index: 1;
+    }
+    .card-text{
+        line-height: 22px;
+    }
+    .new-price{
+        color: $bg-red;
+        font-weight: 600;
+    }
+    .old-price{
+        text-decoration:line-through;
+    }
+    .discount{
+        background-color: $bg-red;
+        position: absolute;
+        bottom: 40px;
+        color: white;
+        padding: 1px 7px;
+        font-size: .8rem;
+        z-index: 2;
+    }
+    .sostenibility{
+        background-color: $bg-sostenibility;
+        position: absolute;
+        bottom: 40px;
+        left: 50px;
+        padding: 1px 7px;
+        font-size: .8rem;
+        color: white;
+        z-index: 2;
+    }
+    .product-hover{
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+    &:hover .product-hover{
+        display: block;
+    }
+}
+.card#card6 .sostenibility{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+.favorite{
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 5px 12px;
+    font-size: 1.5em;
+    z-index: 2;
+    i{
+        &:hover{
+            color: $bg-red;
+            cursor: pointer;
+        }
+    }
+}

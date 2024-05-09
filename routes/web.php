@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/prodotti', function () {
+    // prendo l'array dei prodotti
+    $products = config('products');
+    return view('products', compact('products'));
+})->name('products');
+
 Route::get('/chi-siamo', function () {
     return view('about');
 })->name('about');
