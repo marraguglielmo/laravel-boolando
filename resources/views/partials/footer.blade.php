@@ -1,8 +1,8 @@
 <footer>
-    <section class="container d-flex">
+    <section class="container">
         <div>
             <p>Boolando s.r.l</p>
-            <div class="d-flex">
+            <div class="legacy">
                 <span>Informazioni legali</span>
                 <span>Normativa sulla privacy</span>
                 <span>Diritto di recesso</span>
