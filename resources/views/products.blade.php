@@ -26,9 +26,9 @@
                     </div>
                 </div>
                 <div class="card-text">
-                    <h3>brand</h3>
-                    <h2>nome</h2>
-                    <span class="new-price">prezzo€</span>
+                    <h3>{{ $product['brand'] }}</h3>
+                    <h2>{{ $product['name'] }}</h2>
+                    <span class="new-price">{{ $product['price'] }}</span>
                     <span class="old-price">29.99 €</span>
                 </div>
             </div>
