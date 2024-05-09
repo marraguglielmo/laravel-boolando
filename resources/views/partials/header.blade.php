@@ -3,9 +3,9 @@
         <!-- TOPBAR -->
         <nav>
             <ul class="categories">
-                <li><a href="#">Donna</a></li>
-                <li><a href="#">Uomo</a></li>
-                <li><a href="#">Bambini</a></li>
+                <li><a href="">Donna</a></li>
+                <li><a href="">Uomo</a></li>
+                <li><a href="">Bambini</a></li>
             </ul>
         </nav>
         <!-- /TOPBAR -->
