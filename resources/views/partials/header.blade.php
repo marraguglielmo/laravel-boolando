@@ -1,26 +1,29 @@
 <header>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Prodotti</a>
-                    </li>
+    <section class="container">
+        <!-- TOPBAR -->
+        <nav>
+            <ul class="categories">
+                <li><a href="#">Donna</a></li>
+                <li><a href="#">Uomo</a></li>
+                <li><a href="#">Bambini</a></li>
+            </ul>
+        </nav>
+        <!-- /TOPBAR -->
+        <!-- LOGO -->
+        <span class="logo">
+            <img src="/img/boolean-logo.png" alt="logo">
+        </span>
+        <!-- /LOGO -->
+        <!-- MENU -->
+        <span>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 </ul>
-            </div>
-        </div>
-    </nav>
-
+            </nav>
+        </span>
+        <!-- /MENU -->
+    </section>
 </header>
