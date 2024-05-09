@@ -1,11 +1,19 @@
+@php
+
+    $main_menu = config('menues.main_menu');
+
+@endphp
+
+
 <header>
     <section class="container">
         <!-- TOPBAR -->
         <nav>
+
             <ul class="categories">
-                <li><a href="">Donna</a></li>
-                <li><a href="">Uomo</a></li>
-                <li><a href="">Bambini</a></li>
+                @foreach ($main_menu as $item)
+                    <li><a href="{{ route($item['name']) }}">{{ $item['text'] }}</a></li>
+                @endforeach
             </ul>
         </nav>
         <!-- /TOPBAR -->
@@ -18,9 +26,9 @@
         <span>
             <nav>
                 <ul class="menu">
-                    <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
-                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
-                    <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+                    <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
                 </ul>
             </nav>
         </span>
